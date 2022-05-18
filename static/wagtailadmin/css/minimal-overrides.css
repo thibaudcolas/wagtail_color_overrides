@@ -1,0 +1,164 @@
+:root {
+  /* Set custom values for Wagtail 3.0 indigo shades */
+  --custom-admin-indigo: hsl(210 50% 25%);
+  --custom-admin-indigo-accent: hsl(210 50% 20%);
+  /* Set a custom value for officially-supported teal color customisation. */
+  --color-primary-hue: 210;
+}
+
+/* home.css color overrides */
+
+.homepage header {
+  color: var(--custom-admin-indigo);
+}
+
+/* page-editor.css overrides */
+
+.page-editor .form-side__close-button {
+  color: var(--custom-admin-indigo);
+}
+.page-editor .form-side__close-button:hover {
+  color: var(--custom-admin-indigo-accent);
+}
+
+/* core.css color overrides */
+
+.w-h1 {
+  color: var(--custom-admin-indigo);
+}
+.w-h4,
+.w-label-1 {
+  color: var(--custom-admin-indigo);
+}
+.w-label-3 {
+  color: var(--custom-admin-indigo);
+}
+.c-page-explorer__item > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--custom-admin-indigo);
+}
+.c-page-explorer__item {
+  border-color: var(--custom-admin-indigo);
+}
+.c-page-explorer__item__link:focus,
+.c-page-explorer__item__link:hover {
+  background-color: var(--custom-admin-indigo);
+}
+.c-page-explorer__item__action:focus,
+.c-page-explorer__item__action:hover {
+  background-color: var(--custom-admin-indigo);
+}
+.c-page-explorer {
+  background-color: var(--custom-admin-indigo-accent);
+}
+.c-page-explorer__header {
+  background-color: var(--custom-admin-indigo-accent);
+  border-color: var(--custom-admin-indigo);
+}
+.c-page-explorer__header__title:focus,
+.c-page-explorer__header__title:hover {
+  background-color: var(--custom-admin-indigo);
+}
+.c-page-explorer__header__select {
+  background-color: var(--custom-admin-indigo);
+}
+.c-page-explorer__header__select-icon {
+  color: var(--custom-admin-indigo);
+}
+.w-tabs__tab {
+  color: var(--custom-admin-indigo);
+}
+.w-tabs__tab:after {
+  background-color: var(--custom-admin-indigo);
+}
+.w-tabs__tab:hover {
+  color: var(--custom-admin-indigo);
+}
+.w-tabs__tab[aria-selected='true'] {
+  color: var(--custom-admin-indigo);
+}
+.modal .close {
+  background-color: var(--custom-admin-indigo-accent);
+  border-color: var(--custom-admin-indigo);
+}
+.modal-body header {
+  background-color: var(--custom-admin-indigo);
+}
+header,
+header a {
+  color: var(--custom-admin-indigo);
+}
+header h1,
+header h2 {
+  color: var(--custom-admin-indigo);
+}
+header .search-form .icon {
+  color: var(--custom-admin-indigo);
+}
+.sidebar,
+.sidebar-loading {
+  background-color: var(--custom-admin-indigo);
+}
+.sidebar-loading__inner,
+.sidebar__inner {
+  background-color: var(--custom-admin-indigo);
+}
+.sidebar-nav-toggle--mobile {
+  background-color: var(--custom-admin-indigo);
+}
+.sidebar-nav-toggle--mobile:hover {
+  background-color: var(--custom-admin-indigo-accent);
+}
+.sidebar-nav-toggle--open:hover {
+  background-color: var(--custom-admin-indigo-accent);
+}
+.sidebar-menu-item--active {
+  background-color: var(--custom-admin-indigo-accent);
+}
+.sidebar-sub-menu-panel {
+  background-color: var(--custom-admin-indigo-accent);
+}
+.sidebar-footer {
+  background-color: var(--custom-admin-indigo);
+}
+.tippy-box {
+  background-color: var(--custom-admin-indigo);
+}
+.tippy-box[data-placement^='top'] > .tippy-arrow:before {
+  border-top-color: var(--custom-admin-indigo);
+}
+.tippy-box[data-placement^='bottom'] > .tippy-arrow:before {
+  border-bottom-color: var(--custom-admin-indigo);
+}
+.tippy-box[data-placement^='left'] > .tippy-arrow:before {
+  border-inline-start-color: var(--custom-admin-indigo);
+}
+.tippy-box[data-placement^='right'] > .tippy-arrow:before {
+  border-inline-end-color: var(--custom-admin-indigo);
+}
+.w-bg-primary {
+  background-color: var(--custom-admin-indigo);
+}
+.w-bg-primary-200 {
+  background-color: var(--custom-admin-indigo-accent);
+}
+.w-text-primary {
+  color: var(--custom-admin-indigo);
+}
+.w-text-primary-200 {
+  color: var(--custom-admin-indigo-accent);
+}
+.hover\:w-bg-primary-200:hover {
+  background-color: var(--custom-admin-indigo-accent);
+}
+.hover\:w-text-primary:hover {
+  color: var(--custom-admin-indigo);
+}
+.hover\:w-border-primary:hover {
+  border-color: var(--custom-admin-indigo);
+}
+.focus\:w-bg-primary-200:focus {
+  background-color: var(--custom-admin-indigo-accent);
+}
+.focus\:w-text-primary:focus {
+  color: var(--custom-admin-indigo);
+}
