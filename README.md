@@ -1,3 +1,5 @@
+# Workaround for Wagtail issue [#8424](https://github.com/wagtail/wagtail/issues/8424) in Wagtail 3.0
+
 The Wagtail 3.0 admin interface introduces two new indigo shades which are currently not customisable. This can be problematic for Wagtail sites currently [customising Wagtail’s primary color](https://docs.wagtail.org/en/stable/advanced_topics/customisation/admin_templates.html#custom-user-interface-colors).
 
 This will be supported in a future release – in the meantime, to make those shades customisable, we can override Wagtail’s built-in CSS files with specially-crafted alternatives which use CSS variables for those new colors.
