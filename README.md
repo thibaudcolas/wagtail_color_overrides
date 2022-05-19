@@ -4,6 +4,10 @@ The Wagtail 3.0 admin interface introduces two new indigo shades which are curre
 
 This will be supported in a future release – in the meantime, to make those shades customisable, we can override Wagtail’s built-in CSS files with specially-crafted alternatives which use CSS variables for those new colors.
 
+Demo of the result with blue theme:
+
+![screenshot of the Wagtail 3.0 admin, page listing, with a custom blue color theme](wagtail_color_overrides.png)
+
 ## Full color override
 
 The simplest way to change colors is to change them for the whole of the Wagtail admin at once. First download [an archive of this project](https://github.com/thibaudcolas/wagtail_color_overrides/archive/refs/heads/main.zip) and extract it as a `wagtail_color_overrides` folder.
