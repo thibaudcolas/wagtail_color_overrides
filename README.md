@@ -24,7 +24,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-This app contains three `core.css`, `layouts/page-editor.css`, `layouts/home.css` stylesheets which have are functionally equivalent to the Wagtail 3.0 release’s stylesheets, except for the addition of two new CSS variables, which we can then customise with a new stylesheet loaded with [`insert_global_admin_css`](https://docs.wagtail.org/en/stable/reference/hooks.html#insert-global-admin-css) in a `wagtail_hooks.py` file:
+This app contains three `core.css`, `layouts/page-editor.css`, `layouts/home.css` stylesheets which are functionally equivalent to the Wagtail 3.0 release’s stylesheets, except for the addition of two new CSS variables, which we can then customise with a new stylesheet loaded with [`insert_global_admin_css`](https://docs.wagtail.org/en/stable/reference/hooks.html#insert-global-admin-css) in a `wagtail_hooks.py` file:
 
 ```py
 from django.utils.html import format_html
