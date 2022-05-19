@@ -4,11 +4,7 @@ This will be supported in a future release – in the meantime, to make those sh
 
 ## Full color override
 
-The simplest way to change colors is to change them for the whole of the Wagtail admin at once. First-clone this gist as a sub-folder in your Wagtail project:
-
-```console
-git clone git@gist.github.com:e9a04a31662422f68f1598f4cd19e3ce.git wagtail_color_overrides
-```
+The simplest way to change colors is to change them for the whole of the Wagtail admin at once. First download [an archive of this project](https://github.com/thibaudcolas/wagtail_color_overrides/archive/refs/heads/main.zip) and extract it as a `wagtail_color_overrides` folder.
 
 Then, add `wagtail_color_overrides` to your `INSTALLED_APPS`, _before_ `wagtail.admin`:
 
