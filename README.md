@@ -1,4 +1,12 @@
-# Workaround for Wagtail issue [#8424](https://github.com/wagtail/wagtail/issues/8424) in Wagtail 3.0
+# Deprecated for Wagtail 4 onwards
+
+In Wagtail 4, almost all admin colors [are customisable](https://docs.wagtail.org/en/latest/advanced_topics/customisation/admin_templates.html#custom-user-interface-colours). This project is therefore no longer relevant.
+
+Find the previous README below for Wagtail 3.0
+
+---
+
+## Workaround for Wagtail issue [#8424](https://github.com/wagtail/wagtail/issues/8424) in Wagtail 3.0
 
 The Wagtail 3.0 admin interface introduces two new indigo shades which are currently not customisable. This can be problematic for Wagtail sites currently [customising Wagtail’s primary color](https://docs.wagtail.org/en/stable/advanced_topics/customisation/admin_templates.html#custom-user-interface-colors).
 
@@ -8,7 +16,7 @@ Demo of the result with blue theme:
 
 ![screenshot of the Wagtail 3.0 admin, page listing, with a custom blue color theme](wagtail_color_overrides.png)
 
-## Full color override
+### Full color override
 
 The simplest way to change colors is to change them for the whole of the Wagtail admin at once. First download [an archive of this project](https://github.com/thibaudcolas/wagtail_color_overrides/archive/refs/heads/main.zip) and extract it as a `wagtail_color_overrides` folder.
 
